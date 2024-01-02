@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informatika</title>
+    <style>
+       
+        
+       body,
+        h1,
+        p,
+        button {
+            margin: 0;
+            padding: 0;
+            
+        }
+        
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            margin: 0;
+        }
+        
+        header {
+            background-color: #024e0c;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        article {
+            margin-bottom: 30px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        article p {
+            margin-bottom: 15px;
+            font-size: 16px;
+            line-height: 1.8;
+        }
+        
+        .back-button {
+            padding: 10px 20px;
+            background-color: #96ebae;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            z-index: 999;
+            transition: background-color 0.3s ease;
+        }
+        
+        .back-button:hover {
+            background-color: #555;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #024e0c;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .course {
+           text-align: justify;
+            max-width: 600px;
+            border-radius: 90px;
+            padding: 20px;
+            margin-left: 90px;
+            
+        }
+        .video-wrapper {
+            position: relative;
+            display: inline-block;
+        }
+        .description {
+            margin-top: 100px;
+            text-align: justify;
+            font-size: 16px;
+           
+        }
+        .course .thumbnail img {
+            width: 600px;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <button onclick="goBack()" class="back-button">Kembali</button>
+    <header>
+        <h1>APA ITU CYBERSECURITY</h1>
+    </header>
+
+    <main>
+        <article>
+            <div class="course">
+                <div class="video-wrapper">
+                    <a href="https://youtu.be/XDW3dhjv0i8?si=IYWBBM9dUcbAUHkf" class="thumbnail">
+                        <img src="cyberr.jpg" alt="Custom Thumbnail">
+                        <span class="overlay"></span>
+                    </a>
+                </div>
+                <div class="description">
+                    <p>Dengan berkembangnya era digital yang semakin pesat, cyber security adalah tindakan perlindungan yang sangat diperlukan bagi setiap pengguna internet. Demi mencegah terjadinya kejahatan di dunia maya atau cyber crime, kamu setidaknya perlu memahami apa itu cyber security.</p>
+                    <br>
+                    <h3>Pengertian Cybersecurity</h3>
+                    <p>Cyber security adalah tindakan untuk melindungi perangkat, jaringan, program, dan data dari ancaman siber dan akses ilegal. Ancaman ini biasanya dilakukan oleh oknum yang tidak bertanggungjawab untuk berbagai macam kepentingan yang merugikan korban.
+                    <br>
+                    <br>
+                    Tidak hanya mengincar perusahaan besar, ancaman siber juga menyerang bisnis kecil hingga kalangan pribadi. Contohnya, seperti mengakses informasi sensitif, mengubah atau bahkan menghancurkan data-data penting. Berbagai jenis ancaman siber inilah yang membuat cyber security penting untuk dipahami setiap orang.
+                    <br>
+                    <br>
+                    Jadi, pengertian cyber security adalah sistem keamanan yang diperlukan untuk melindungi data dalam komputer, perangkat seluler, hingga jaringan dari serangan siber.
+                        Pada umumnya, serangan tersebut bersifat ilegal dan membahayakan data yang ada dalam suatu sistem komputer.
+                        Itulah sebabnya, penting untuk memperkuat keamanan dalam komputer pribadi maupun perusahaan.
+                        Contoh cyber security sendiri bisa berupa firewall, autentikasi, hingga enkripsi yang kuat. Selain itu, Anda juga bisa menggunakan perlindungan dalam bentuk perangkat lunak atau pembaruan sistem.
+                    <br>
+                    <br>
+                    Itulah Penjelasan Singkat Mengenai Cybersecurity, semoga bermanfaat.</p>
+                    <br>
+                                                
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Website Artikel</p>
+    </footer>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+
+</html>
